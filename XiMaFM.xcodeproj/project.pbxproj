@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3625D8351E94E228003DBB73 /* SubVCFatory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D8341E94E228003DBB73 /* SubVCFatory.swift */; };
+		3625D8371E94E30D003DBB73 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D8361E94E30D003DBB73 /* RecommendViewController.swift */; };
+		3625D8391E94E31A003DBB73 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D8381E94E31A003DBB73 /* CategoryViewController.swift */; };
+		3625D83B1E94E32B003DBB73 /* ProdCastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D83A1E94E32B003DBB73 /* ProdCastViewController.swift */; };
+		3625D83D1E94E33D003DBB73 /* RandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D83C1E94E33D003DBB73 /* RandViewController.swift */; };
+		3625D83F1E94E347003DBB73 /* AnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D83E1E94E347003DBB73 /* AnchorViewController.swift */; };
 		364247B61E8F863600FA0FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364247B51E8F863600FA0FAF /* AppDelegate.swift */; };
 		364247BB1E8F863600FA0FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364247B91E8F863600FA0FAF /* Main.storyboard */; };
 		364247BD1E8F863600FA0FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364247BC1E8F863600FA0FAF /* Assets.xcassets */; };
@@ -19,10 +25,19 @@
 		364247E31E8FA1F800FA0FAF /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364247E21E8FA1F800FA0FAF /* MyPageViewController.swift */; };
 		364247E51E8FA20D00FA0FAF /* GeneralMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364247E41E8FA20D00FA0FAF /* GeneralMacro.swift */; };
 		364247EA1E8FA56600FA0FAF /* GeneralExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364247E91E8FA56600FA0FAF /* GeneralExtensions.swift */; };
+		364247ED1E949A3200FA0FAF /* BGPagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364247EC1E949A3200FA0FAF /* BGPagesViewController.swift */; };
+		364247EF1E94CBF000FA0FAF /* BGFindSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364247EE1E94CBF000FA0FAF /* BGFindSubViewController.swift */; };
+		364247F11E94DC5B00FA0FAF /* TitlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364247F01E94DC5B00FA0FAF /* TitlesView.swift */; };
 		7BF2C9CD164B11E45DA075FE /* Pods_XiMaFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F048F2B764F2565691CD2010 /* Pods_XiMaFM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3625D8341E94E228003DBB73 /* SubVCFatory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubVCFatory.swift; sourceTree = "<group>"; };
+		3625D8361E94E30D003DBB73 /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		3625D8381E94E31A003DBB73 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		3625D83A1E94E32B003DBB73 /* ProdCastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProdCastViewController.swift; sourceTree = "<group>"; };
+		3625D83C1E94E33D003DBB73 /* RandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandViewController.swift; sourceTree = "<group>"; };
+		3625D83E1E94E347003DBB73 /* AnchorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorViewController.swift; sourceTree = "<group>"; };
 		364247B21E8F863600FA0FAF /* XiMaFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiMaFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		364247B51E8F863600FA0FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		364247BA1E8F863600FA0FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,6 +53,9 @@
 		364247E21E8FA1F800FA0FAF /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		364247E41E8FA20D00FA0FAF /* GeneralMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralMacro.swift; sourceTree = "<group>"; };
 		364247E91E8FA56600FA0FAF /* GeneralExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralExtensions.swift; sourceTree = "<group>"; };
+		364247EC1E949A3200FA0FAF /* BGPagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGPagesViewController.swift; sourceTree = "<group>"; };
+		364247EE1E94CBF000FA0FAF /* BGFindSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGFindSubViewController.swift; sourceTree = "<group>"; };
+		364247F01E94DC5B00FA0FAF /* TitlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitlesView.swift; sourceTree = "<group>"; };
 		4AE1E7EFF561BE84DAD1485B /* Pods-XiMaFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiMaFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XiMaFM/Pods-XiMaFM.debug.xcconfig"; sourceTree = "<group>"; };
 		A8BEAE1082173A2FAE32DFD5 /* Pods-XiMaFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiMaFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-XiMaFM/Pods-XiMaFM.release.xcconfig"; sourceTree = "<group>"; };
 		F048F2B764F2565691CD2010 /* Pods_XiMaFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiMaFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +104,7 @@
 			children = (
 				364247D81E8FA10900FA0FAF /* MainTabBarController.swift */,
 				364247DA1E8FA17300FA0FAF /* BaseViewController.swift */,
-				364247DC1E8FA1A000FA0FAF /* FindViewController.swift */,
+				364247EB1E9497E000FA0FAF /* Find */,
 				364247DE1E8FA1BE00FA0FAF /* SubScribeViewController.swift */,
 				364247E01E8FA1E600FA0FAF /* DownLoadViewController.swift */,
 				364247E21E8FA1F800FA0FAF /* MyPageViewController.swift */,
@@ -108,6 +126,23 @@
 				364247C11E8F863600FA0FAF /* Info.plist */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		364247EB1E9497E000FA0FAF /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				364247DC1E8FA1A000FA0FAF /* FindViewController.swift */,
+				364247EC1E949A3200FA0FAF /* BGPagesViewController.swift */,
+				364247F01E94DC5B00FA0FAF /* TitlesView.swift */,
+				3625D8341E94E228003DBB73 /* SubVCFatory.swift */,
+				364247EE1E94CBF000FA0FAF /* BGFindSubViewController.swift */,
+				3625D8361E94E30D003DBB73 /* RecommendViewController.swift */,
+				3625D8381E94E31A003DBB73 /* CategoryViewController.swift */,
+				3625D83A1E94E32B003DBB73 /* ProdCastViewController.swift */,
+				3625D83C1E94E33D003DBB73 /* RandViewController.swift */,
+				3625D83E1E94E347003DBB73 /* AnchorViewController.swift */,
+			);
+			name = Find;
 			sourceTree = "<group>";
 		};
 		573D921F698CB375A0D3C527 /* Pods */ = {
@@ -245,9 +280,18 @@
 			files = (
 				364247E11E8FA1E600FA0FAF /* DownLoadViewController.swift in Sources */,
 				364247EA1E8FA56600FA0FAF /* GeneralExtensions.swift in Sources */,
+				364247ED1E949A3200FA0FAF /* BGPagesViewController.swift in Sources */,
+				3625D83F1E94E347003DBB73 /* AnchorViewController.swift in Sources */,
+				364247F11E94DC5B00FA0FAF /* TitlesView.swift in Sources */,
+				3625D83D1E94E33D003DBB73 /* RandViewController.swift in Sources */,
 				364247DB1E8FA17300FA0FAF /* BaseViewController.swift in Sources */,
+				364247EF1E94CBF000FA0FAF /* BGFindSubViewController.swift in Sources */,
+				3625D83B1E94E32B003DBB73 /* ProdCastViewController.swift in Sources */,
+				3625D8351E94E228003DBB73 /* SubVCFatory.swift in Sources */,
 				364247E31E8FA1F800FA0FAF /* MyPageViewController.swift in Sources */,
 				364247B61E8F863600FA0FAF /* AppDelegate.swift in Sources */,
+				3625D8371E94E30D003DBB73 /* RecommendViewController.swift in Sources */,
+				3625D8391E94E31A003DBB73 /* CategoryViewController.swift in Sources */,
 				364247D91E8FA10900FA0FAF /* MainTabBarController.swift in Sources */,
 				364247E51E8FA20D00FA0FAF /* GeneralMacro.swift in Sources */,
 				364247DD1E8FA1A000FA0FAF /* FindViewController.swift in Sources */,

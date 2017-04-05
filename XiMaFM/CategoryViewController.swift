@@ -12,6 +12,7 @@ class CategoryViewController: BGFindSubViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor.green
 
         // Do any additional setup after loading the view.
     }
