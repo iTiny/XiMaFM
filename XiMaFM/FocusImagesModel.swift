@@ -7,7 +7,15 @@
 //
 
 import UIKit
+import HandyJSON
 
 class FocusImagesModel: HandyJSON {
 
+    
+    var ret: Int = 0
+    var title: String?
+    var list: [BannerModel]?
+    
+    required init() {}
+    
 }

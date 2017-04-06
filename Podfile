@@ -9,12 +9,16 @@ target 'XiMaFM' do
   pod 'Alamofire', '~> 4.0'
   pod 'SnapKit', '~> 3.0.2'
   pod 'SDCycleScrollView','~> 1.64'
-  pod 'HandyJSON', '~> 1.2.1'
+#  pod 'HandyJSON', '~> 1.2.1'
   pod 'SwiftyJSON'
   pod 'DZNEmptyDataSet'
   pod 'MJExtension'
 
 #  pod 'SnapKit', '~> 3.2.0'
+  pod 'SwiftyJSON'
+  pod 'HandyJSON', '~> 1.6.1'
+
+
 
 
 end

@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3624B49D1E9634AE00BE2B40 /* EditorRecommendAlbumsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624B49C1E9634AE00BE2B40 /* EditorRecommendAlbumsModel.swift */; };
+		3624B49F1E9635ED00BE2B40 /* FIndFeeDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624B49E1E9635ED00BE2B40 /* FIndFeeDetailModel.swift */; };
+		3624B4A11E9645EE00BE2B40 /* FocusImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624B4A01E9645EE00BE2B40 /* FocusImagesModel.swift */; };
+		3624B4A31E96460600BE2B40 /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624B4A21E96460600BE2B40 /* BannerModel.swift */; };
+		3624B4A81E96481900BE2B40 /* SpecialList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624B4A71E96481900BE2B40 /* SpecialList.swift */; };
+		3624B4AA1E96483800BE2B40 /* SpecialDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624B4A91E96483800BE2B40 /* SpecialDetailModel.swift */; };
 		3625D8351E94E228003DBB73 /* SubVCFatory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D8341E94E228003DBB73 /* SubVCFatory.swift */; };
 		3625D8371E94E30D003DBB73 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D8361E94E30D003DBB73 /* RecommendViewController.swift */; };
 		3625D8391E94E31A003DBB73 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D8381E94E31A003DBB73 /* CategoryViewController.swift */; };
 		3625D83B1E94E32B003DBB73 /* ProdCastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D83A1E94E32B003DBB73 /* ProdCastViewController.swift */; };
 		3625D83D1E94E33D003DBB73 /* RandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D83C1E94E33D003DBB73 /* RandViewController.swift */; };
 		3625D83F1E94E347003DBB73 /* AnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D83E1E94E347003DBB73 /* AnchorViewController.swift */; };
+		3625D8431E95E439003DBB73 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D8421E95E439003DBB73 /* NetworkTools.swift */; };
+		3625D8451E95F0A0003DBB73 /* FindAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D8441E95F0A0003DBB73 /* FindAPI.swift */; };
+		3625D8471E961A8E003DBB73 /* FindRecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625D8461E961A8E003DBB73 /* FindRecommendViewModel.swift */; };
 		364247B61E8F863600FA0FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364247B51E8F863600FA0FAF /* AppDelegate.swift */; };
 		364247BB1E8F863600FA0FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364247B91E8F863600FA0FAF /* Main.storyboard */; };
 		364247BD1E8F863600FA0FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364247BC1E8F863600FA0FAF /* Assets.xcassets */; };
@@ -32,12 +41,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3624B49C1E9634AE00BE2B40 /* EditorRecommendAlbumsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorRecommendAlbumsModel.swift; sourceTree = "<group>"; };
+		3624B49E1E9635ED00BE2B40 /* FIndFeeDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIndFeeDetailModel.swift; sourceTree = "<group>"; };
+		3624B4A01E9645EE00BE2B40 /* FocusImagesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusImagesModel.swift; sourceTree = "<group>"; };
+		3624B4A21E96460600BE2B40 /* BannerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
+		3624B4A71E96481900BE2B40 /* SpecialList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialList.swift; sourceTree = "<group>"; };
+		3624B4A91E96483800BE2B40 /* SpecialDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialDetailModel.swift; sourceTree = "<group>"; };
 		3625D8341E94E228003DBB73 /* SubVCFatory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubVCFatory.swift; sourceTree = "<group>"; };
 		3625D8361E94E30D003DBB73 /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 		3625D8381E94E31A003DBB73 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		3625D83A1E94E32B003DBB73 /* ProdCastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProdCastViewController.swift; sourceTree = "<group>"; };
 		3625D83C1E94E33D003DBB73 /* RandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandViewController.swift; sourceTree = "<group>"; };
 		3625D83E1E94E347003DBB73 /* AnchorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorViewController.swift; sourceTree = "<group>"; };
+		3625D8421E95E439003DBB73 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		3625D8441E95F0A0003DBB73 /* FindAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindAPI.swift; sourceTree = "<group>"; };
+		3625D8461E961A8E003DBB73 /* FindRecommendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindRecommendViewModel.swift; sourceTree = "<group>"; };
 		364247B21E8F863600FA0FAF /* XiMaFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiMaFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		364247B51E8F863600FA0FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		364247BA1E8F863600FA0FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,6 +99,64 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3624B49B1E9633FA00BE2B40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3625D8461E961A8E003DBB73 /* FindRecommendViewModel.swift */,
+				3624B4A61E9647F200BE2B40 /* 精品听单 */,
+				3624B4A41E9647CD00BE2B40 /* 编辑推荐 */,
+				3624B4A51E9647E300BE2B40 /* Banner */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3624B4A41E9647CD00BE2B40 /* 编辑推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				3624B49C1E9634AE00BE2B40 /* EditorRecommendAlbumsModel.swift */,
+				3624B49E1E9635ED00BE2B40 /* FIndFeeDetailModel.swift */,
+			);
+			name = "编辑推荐";
+			sourceTree = "<group>";
+		};
+		3624B4A51E9647E300BE2B40 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				3624B4A01E9645EE00BE2B40 /* FocusImagesModel.swift */,
+				3624B4A21E96460600BE2B40 /* BannerModel.swift */,
+			);
+			name = Banner;
+			sourceTree = "<group>";
+		};
+		3624B4A61E9647F200BE2B40 /* 精品听单 */ = {
+			isa = PBXGroup;
+			children = (
+				3624B4A71E96481900BE2B40 /* SpecialList.swift */,
+				3624B4A91E96483800BE2B40 /* SpecialDetailModel.swift */,
+			);
+			name = "精品听单";
+			sourceTree = "<group>";
+		};
+		3625D8411E95E407003DBB73 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				364247E41E8FA20D00FA0FAF /* GeneralMacro.swift */,
+				364247E91E8FA56600FA0FAF /* GeneralExtensions.swift */,
+				3625D8421E95E439003DBB73 /* NetworkTools.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		3625D8481E961FE1003DBB73 /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				3625D8441E95F0A0003DBB73 /* FindAPI.swift */,
+				3625D8361E94E30D003DBB73 /* RecommendViewController.swift */,
+				3624B49B1E9633FA00BE2B40 /* Model */,
+			);
+			name = "推荐";
+			sourceTree = "<group>";
+		};
 		364247A91E8F863600FA0FAF = {
 			isa = PBXGroup;
 			children = (
@@ -108,8 +184,7 @@
 				364247DE1E8FA1BE00FA0FAF /* SubScribeViewController.swift */,
 				364247E01E8FA1E600FA0FAF /* DownLoadViewController.swift */,
 				364247E21E8FA1F800FA0FAF /* MyPageViewController.swift */,
-				364247E41E8FA20D00FA0FAF /* GeneralMacro.swift */,
-				364247E91E8FA56600FA0FAF /* GeneralExtensions.swift */,
+				3625D8411E95E407003DBB73 /* Common */,
 				364247D41E8F8FD400FA0FAF /* Resources */,
 			);
 			path = XiMaFM;
@@ -136,7 +211,7 @@
 				364247F01E94DC5B00FA0FAF /* TitlesView.swift */,
 				3625D8341E94E228003DBB73 /* SubVCFatory.swift */,
 				364247EE1E94CBF000FA0FAF /* BGFindSubViewController.swift */,
-				3625D8361E94E30D003DBB73 /* RecommendViewController.swift */,
+				3625D8481E961FE1003DBB73 /* 推荐 */,
 				3625D8381E94E31A003DBB73 /* CategoryViewController.swift */,
 				3625D83A1E94E32B003DBB73 /* ProdCastViewController.swift */,
 				3625D83C1E94E33D003DBB73 /* RandViewController.swift */,
@@ -280,22 +355,31 @@
 			files = (
 				364247E11E8FA1E600FA0FAF /* DownLoadViewController.swift in Sources */,
 				364247EA1E8FA56600FA0FAF /* GeneralExtensions.swift in Sources */,
+				3624B49D1E9634AE00BE2B40 /* EditorRecommendAlbumsModel.swift in Sources */,
 				364247ED1E949A3200FA0FAF /* BGPagesViewController.swift in Sources */,
 				3625D83F1E94E347003DBB73 /* AnchorViewController.swift in Sources */,
+				3625D8471E961A8E003DBB73 /* FindRecommendViewModel.swift in Sources */,
 				364247F11E94DC5B00FA0FAF /* TitlesView.swift in Sources */,
+				3625D8431E95E439003DBB73 /* NetworkTools.swift in Sources */,
 				3625D83D1E94E33D003DBB73 /* RandViewController.swift in Sources */,
+				3624B4A31E96460600BE2B40 /* BannerModel.swift in Sources */,
+				3625D8451E95F0A0003DBB73 /* FindAPI.swift in Sources */,
 				364247DB1E8FA17300FA0FAF /* BaseViewController.swift in Sources */,
 				364247EF1E94CBF000FA0FAF /* BGFindSubViewController.swift in Sources */,
 				3625D83B1E94E32B003DBB73 /* ProdCastViewController.swift in Sources */,
 				3625D8351E94E228003DBB73 /* SubVCFatory.swift in Sources */,
 				364247E31E8FA1F800FA0FAF /* MyPageViewController.swift in Sources */,
 				364247B61E8F863600FA0FAF /* AppDelegate.swift in Sources */,
+				3624B4A11E9645EE00BE2B40 /* FocusImagesModel.swift in Sources */,
 				3625D8371E94E30D003DBB73 /* RecommendViewController.swift in Sources */,
 				3625D8391E94E31A003DBB73 /* CategoryViewController.swift in Sources */,
 				364247D91E8FA10900FA0FAF /* MainTabBarController.swift in Sources */,
 				364247E51E8FA20D00FA0FAF /* GeneralMacro.swift in Sources */,
 				364247DD1E8FA1A000FA0FAF /* FindViewController.swift in Sources */,
+				3624B4AA1E96483800BE2B40 /* SpecialDetailModel.swift in Sources */,
 				364247DF1E8FA1BE00FA0FAF /* SubScribeViewController.swift in Sources */,
+				3624B49F1E9635ED00BE2B40 /* FIndFeeDetailModel.swift in Sources */,
+				3624B4A81E96481900BE2B40 /* SpecialList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

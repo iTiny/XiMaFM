@@ -7,7 +7,15 @@
 //
 
 import UIKit
+import HandyJSON
 
 class SpecialList: HandyJSON {
 
+    var ret: Int = 0
+    var title: String?
+    var hasMore: Bool = false
+    var list:[SpecialDetailModel]?
+    
+    required init(){}
+    
 }

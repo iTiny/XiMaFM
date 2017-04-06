@@ -7,7 +7,15 @@
 //
 
 import UIKit
+import HandyJSON
 
 class SpecialDetailModel: HandyJSON {
 
+    
+    var title: String?
+    var specialId: NSNumber?
+    var coverPath: String?
+    
+    required init(){}
+    
 }
